@@ -1,0 +1,40 @@
+T1 | Simulador para Rede de Filas - resumo dos resultados
+Semente: 42 | Criterio de parada: 100.000 numeros aleatorios
+============================================================
+
+Resultado da Fila 1: G/G/1, chegadas entre 2..4, atendimento entre 1..2
+   Estado  0:   20382.5718 min  ( 40.21%)
+   Estado  1:   26664.1092 min  ( 52.61%)
+   Estado  2:    3500.2678 min  (  6.91%)
+   Estado  3:     137.4566 min  (  0.27%)
+   Estado  4:       0.0381 min  (  0.00%)
+   Numero de perdas: 0
+   Populacao media: 0.6723
+
+Resultado da Fila 2: G/G/2/5, atendimento entre 4..6
+   Estado  0:   12139.2869 min  ( 23.95%)
+   Estado  1:   20973.8252 min  ( 41.38%)
+   Estado  2:   13027.6448 min  ( 25.70%)
+   Estado  3:    3872.7779 min  (  7.64%)
+   Estado  4:     620.2435 min  (  1.22%)
+   Estado  5:      50.6653 min  (  0.10%)
+   Numero de perdas: 3
+   Populacao media: 1.2111
+
+Resultado da Fila 3: G/G/2/10, atendimento entre 5..15
+   Estado  0:       7.0781 min  (  0.01%)
+   Estado  1:       2.0164 min  (  0.00%)
+   Estado  2:       6.6402 min  (  0.01%)
+   Estado  3:       6.4048 min  (  0.01%)
+   Estado  4:       5.9446 min  (  0.01%)
+   Estado  5:       6.2076 min  (  0.01%)
+   Estado  6:       7.0850 min  (  0.01%)
+   Estado  7:      56.0489 min  (  0.11%)
+   Estado  8:    2907.7363 min  (  5.74%)
+   Estado  9:   16137.1257 min  ( 31.84%)
+   Estado 10:   31542.1560 min  ( 62.23%)
+   Numero de perdas: 11614
+   Populacao media: 9.5580
+
+============================================================
+Tempo total de simulacao: 50684.4435 min
