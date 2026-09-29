@@ -1,16 +1,6 @@
-#==============================================================================
-#  T1 | Simulador para Rede de Filas
-#  Fila 1: G/G/1 (capacidade infinita), chegadas 2..4, atendimento 1..2
-#          roteamento: 0,2 -> F2 | 0,8 -> F3
-#  Fila 2: G/G/2/5, atendimento 4..6
-#          roteamento: 0,3 -> F1 | 0,5 -> F3 | 0,2 -> exterior (restante)
-#  Fila 3: G/G/2/10, atendimento 5..15
-#          roteamento: 0,7 -> F2 | 0,3 -> exterior (restante)
-#
-#  Convencao de saida da rede: a probabilidade restante de cada fila vai para
-#  o exterior (mesma convencao do simulador de referencia do modulo 3).
-#  Parada: 100.000 numeros aleatorios.
-#==============================================================================
+# Modelo do T1: rede de 3 filas, vazias no inicio, 1a chegada em t = 2.0 e
+# parada em 100.000 aleatorios. A probabilidade que falta em cada fila sai da
+# rede (exterior).
 !PARAMETERS
 
 arrivals:
