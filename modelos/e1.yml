@@ -1,0 +1,26 @@
+#==============================================================================
+#  Vetor deterministico do E1 (validacao)
+#  G/G/1/3, chegadas 2..4, atendimento 3..4, 1a chegada em t = 2.0
+#  Numeros aleatorios: 0.4 0.2 0.7 0.5 0.1 0.8
+#==============================================================================
+!PARAMETERS
+
+arrivals:
+   F1: 2.0
+
+queues:
+   F1:
+      servers: 1
+      capacity: 3
+      minArrival: 2.0
+      maxArrival: 4.0
+      minService: 3.0
+      maxService: 4.0
+
+rndnumbers:
+- 0.4
+- 0.2
+- 0.7
+- 0.5
+- 0.1
+- 0.8
